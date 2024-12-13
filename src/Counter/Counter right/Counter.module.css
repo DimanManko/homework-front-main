@@ -1,0 +1,75 @@
+
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #DDEEFF;
+    max-width: 300px;
+    border: 2px solid limegreen;
+}
+
+.buttonGen {
+    display: flex;
+    align-items: center;
+    border: 2px solid dodgerblue;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button {
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.value{
+    border: 2px solid dodgerblue;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+
+
+
+App {
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.arrow {
+    pointer-events: none;
+    stroke: #000;
+    fill: transparent;
+    stroke-dasharray: 4 2;
+    stroke: #000;
+    stroke-width: 1px;
+
+
+}
+
+
+
+
+.arrow__path {
+    stroke: #000;
+    fill: transparent;
+    stroke-dasharray: 4 2;
+}
+.arrow__head line {
+    stroke: #000;
+    stroke-width: 1px;
+}
